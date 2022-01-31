@@ -1,0 +1,61 @@
+body {
+  background-color: #232323;
+  margin: 0;
+}
+.container {
+  width: 600px;
+  margin: 20px auto;
+}
+.square {
+  float: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  background-color: aqua;
+  margin: 1.5%;
+  border-radius: 8%;
+  transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#colorDisplay {
+  display: block;
+  font-size: 200%;
+}
+
+#message {
+  font-size: medium;
+  display: inline-block;
+  width: 20%;
+}
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  color: black;
+}
+button {
+  border: none;
+  height: 100%;
+  font-weight: lighter;
+  color: black;
+  font-size: medium;
+  letter-spacing: 1px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+#message {
+  font-size: medium;
+  display: inline-block;
+  width: 20%;
+}
